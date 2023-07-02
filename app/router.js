@@ -10,6 +10,8 @@ module.exports = (app) => {
   // 设置基础路径
   router.prefix('/api/v1')
 
+  router.post('/home', controller.home.index)
+
   // 注册用户
   router.post('/users', controller.user.create)
 
