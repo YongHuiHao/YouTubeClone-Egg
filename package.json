@@ -29,7 +29,7 @@
     "node": ">=16.0.0"
   },
   "scripts": {
-    "start": "egg-scripts start --title=egg-server-youtubclone-backend-egg",
+    "start": "egg-scripts start --daemon --title=egg-server-youtubclone-backend-egg",
     "stop": "egg-scripts stop --title=egg-server-youtubclone-backend-egg",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
