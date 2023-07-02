@@ -52,7 +52,6 @@ module.exports = (appInfo) => {
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH,OPTIONS' //允许的请求方式  get、post等基本请求方式不需要设置
   }
 
-	
   return {
     ...config,
     ...userConfig
